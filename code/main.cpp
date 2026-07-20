@@ -25,23 +25,22 @@ void setup() {
 }
 
 void loop() {
-  //wait until the button is physically pressed down
   if (digitalRead(BUTTON_PIN) == LOW) {
-    delay(50); // Small debounce to ensure a solid press
+    delay(50); //debounce
     
     Serial.println("STARTING CAPTURE..."); 
     
     int sampleCount = 0;
-    unsigned long previousMicros = micros(); //ensure each sample is taken after a set interval
+    unsigned long previousMicros = micros();
     tempStorage = 0;
     Oversample_Count = 0;
 
-    //keep looping ONLY while the button is held down AND we haven't run out of array space
+    
     while (digitalRead(BUTTON_PIN) == LOW && sampleCount < Max_Samples) { //oversample
       unsigned long currentMicros = micros(); //this is gonna be tracking the time in real time since its in a loop
       
       if ((unsigned long)(currentMicros - previousMicros) >= Sample_Interval) { //forcing the calculation to give an unsigned long as a result so that the calculation can never be negative, explained at the bottom
-        previousMicros += Sample_Interval; //everytime currentMicros - previousMicros is greater than the sample interval, a sample is taken and then previous micros is made equal to currentMicros
+        previousMicros += Sample_Interval;
         
         tempStorage += analogRead(ADC_PIN); //take a bunch of samples
         Oversample_Count++;
@@ -62,19 +61,19 @@ void loop() {
     //sending data through serial once button was released
     Serial.flush();
     Serial.println("BUTTON RELEASED, DUMPING DATA...");
-    delay(10); // gemini told me this to fix my code // apparently it needs a little time so it can remove this string from the queue so it can start outputting the data
+    delay(10); // gemini told me to add this // apparently it needs a little time so it can remove this string from the queue so it can start outputting the data
 
-    //constants needed for converting from steps to volts, change these accordingly
+    //converting from steps to volts, change these accordingly
     const float  gain = 35.0; //change this accordingly depending on how large your emf produced is, ensuring that the (EMF produced * gain) + 1.65  does not exceed 0-3.3v
     const float refVoltage = 1.65; //op amp voltage when magnet is not near the coil
-    const float sourceVoltage = 3.3; //pi pico voltage
+    const float sourceVoltage = 3.3; //pi pico voltage, its actually most of the times not exactly 3.3v
     
     //send ONLY the number of samples collected during the hold duration so sending sample count instead of Max_Samples
     for (int i = 0; i < sampleCount; i++) {
       unsigned long timeMicroSecond = (unsigned long) i * Output_Interval;
       
       float avgADC = (float) adcStorage[i];
-      float pinVoltage = (avgADC / 4095.0) * sourceVoltage; //4095 cuz 2^12 = 4096 possible steps, 3.3
+      float pinVoltage = (avgADC / 4095.0) * sourceVoltage; //4095 cuz 2^12 = 4096 possible steps
       float voltageMicroVolts = ((pinVoltage - refVoltage) / gain) * 1000000.0; //removing the bias, removing the gain, converting to micro volts
       
       //if (digitalRead(SWITCH_PIN) == HIGH){
