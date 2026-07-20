@@ -106,3 +106,5 @@ void loop() {
  so we decide not do standard math and do unsigned binary math and then 200 - 4,294,966,500$ automatically wraps through binary space to equal exactly 996 microseconds
  even though ill never actually keep repeating the experiment for this long its a good bit of logic to know for future
  */
+
+//might want to add a glitch filter to ensure the pushbutton is not released due to bouncing
