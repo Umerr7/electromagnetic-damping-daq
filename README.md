@@ -33,10 +33,7 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 | **Reference Voltage** | +3.3V DC |
 | **Virtual Ground Bias** | +1.65V DC |
 | **Hardware Step Resolution** | 0.806mV |
-| **Input Voltage Ceiling** | ±47.14mV |
-| **Hardware Gain** | 35x |
 | **Active Noise Floor Uncertainty** |  ±0.034mV |
-| **Signal-to-Noise Ratio (SNR)** | 58.9 dB |
 
 
 
