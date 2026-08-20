@@ -15,14 +15,11 @@ a "working" version of this device is quite simple, making a great version of th
 feeding a constant voltage to the DAQ, and getting a quantized result with many "steps" of variation is inevitable when noise reduction measures have not been taken.
 Most of the noise reduction is built in to the hardware and code. Keep all the wires short, the decoupling capacitors close to the pins, and ensure that the USB cable used to power the rasberry pi pico has its +5v bus cut off, and is instead powered through an external battery or power adapter. 
 
+[DAQ_electric_damp.pdf](https://github.com/user-attachments/files/31250556/DAQ_electric_damp.pdf)
 
 
 
-#schematic diagram
-
-
-
-#other apparatus
+# electric damping apparatus
 [picture]
 shortdescription
 
