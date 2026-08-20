@@ -13,7 +13,7 @@ I made this DAQ, because i was annoyed at the terrible analog oscilloscope in my
 a "working" version of this device is quite simple, making a great version of this device is a lot harder. 
 
 feeding a constant voltage to the DAQ, and getting a quantized result with many "steps" of variation is inevitable when noise reduction measures have not been taken.
-some of these measures include:
+Most of the noise reduction is built in to the hardware and code. Keep all the wires short, the decoupling capacitors close to the pins, and ensure that the USB cable used to power the rasberry pi pico has its +5v bus cut off, and is instead powered through an external battery or power adapter. 
 
 
 
