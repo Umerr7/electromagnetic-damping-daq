@@ -1,10 +1,10 @@
-# Data Acquisition System
+# extremely low noise Data Acquisition System (DAQ)
 <img width="3072" height="4080" alt="PXL_20260728_090040083(1)" src="https://github.com/user-attachments/assets/df5db7d0-14fa-415a-ba17-a47d2188022c" />
-Measures mV level voltages and plots them on your computer screen, built using a raspberry pi pico and an OPA2134 op-amp signal conditioning stage, in order to plot accurate decay curves for an electromagnetic damping experiment with an active noise floor uncertainty of ±0.000034V. <br/><br/>
+Measures mV level voltages and plots them on your computer screen, built using a raspberry pi pico and an OPA2134 op-amp signal conditioning stage, in order to plot REALLY accurate decay curves for an electromagnetic damping experiment with an active noise floor uncertainty of ±0.000034V!! <br/><br/>
 
 > see this project in action: [link]
 
-I made this DAQ, because i was annoyed at the terrible analog oscilloscope in the lab where i was trying to conduct an electric damping experiment in which you pass a magnet through a coil to induce EMF. I did not realise how deeply this project would pull me in, and how how obsessed i would become at trying to condition the signal effectively. <br/>
+I made this DAQ, because I was annoyed at the terrible analog oscilloscope in the lab, while trying to conduct an electromagnetic damping experiment. Since my lab didnt have a digital oscilloscope i could use, I thought "ill just make one myself". I did not realize at the time, just how deep this project would take me, and how obsessed i would become with analog signal conditioning. <br/>
 
 # how to make your own!
 <img width="3072" height="4080" alt="PXL_20260728_084321615" src="https://github.com/user-attachments/assets/df9b7698-cc3d-46fa-b593-478274b963c9" />
