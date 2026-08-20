@@ -1,4 +1,4 @@
-# extremely low noise Data Acquisition System (DAQ)
+# EXTREMELY LOW NOISE Data Acquisition System (DAQ)
 <img width="3072" height="4080" alt="PXL_20260728_090040083(1)" src="https://github.com/user-attachments/assets/df5db7d0-14fa-415a-ba17-a47d2188022c" />
 Measures mV level voltages and plots them on your computer screen, built using a raspberry pi pico and an OPA2134 op-amp signal conditioning stage, in order to plot REALLY accurate decay curves for an electromagnetic damping experiment with an active noise floor uncertainty of ±0.000034V!! <br/><br/>
 
@@ -27,17 +27,28 @@ Most of the noise reduction is built in to the hardware and code. Keep all the w
 A neodymium magnet is attached to a spring. An aluminum claw is used to release the magnet from a constant position with an initial velocity of zero. The magnet oscillates about the coil of wire, which induces EMF, Subsequently measured using the oscilloscope.  
 
 # Stats
+
+### Fixed Hardware Specs
 | Parameter | Specification |
 | :--- | :--- |
 | **ADC Bit Depth** | 12-bit (4,096 levels) |
 | **Reference Voltage** | +3.3V DC |
 | **Virtual Ground Bias** | +1.65V DC |
-| **Hardware Step Resolution** | 0.806mV |
-| **Active Noise Floor Uncertainty** |  ±0.034mV |
+| **ADC Pin Step Resolution (LSB)** | 0.806 mV |
 
-
-
-
+### Configurable Specs (35× Gain Reference Setup)
+| Parameter | Specification (@ 35× Gain) | Formula for Any Gain ($A_v$) |
+| :--- | :--- | :--- |
+| **Hardware Gain ($A_v$)** | 35x | User-Configurable |
+| **Input Voltage Ceiling** | ±47.14 mV (94.28 mVp-p) | $\pm 1.65\text{V} / A_v$ |
+| **Effective Coil Resolution** | 0.023 mV (23.03 μV) | $0.806\text{mV} / A_v$ |
+| **Active Noise Floor Uncertainty** | ±0.034 mV (±34 μV) | Measured noise floor |
+| **Signal-to-Noise Ratio (SNR)** | ~62.84 dB | 20 * log10(Voltage Ceiling / Noise Floor) |
 
 # notes
-A custom serial plotter was also made for this project by Hardyesh Kumar. It includes an extra post signal conditioning step called a **butterworth** filter
+Muino serial plotter was mostly used to display the information, it is available as a Visual Studio Code extension.
+A custom serial plotter was also made for this project by Hardyesh Kumar. It includes an extra post signal conditioning step called a **butterworth** filter.
+
+
+
+
