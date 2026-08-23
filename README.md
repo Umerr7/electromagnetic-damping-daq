@@ -1,4 +1,4 @@
-# EXTREMELY LOW NOISE Data Acquisition System (DAQ)
+# EXTREMELY LOW NOISE DATA ACQUISITION SYSTEM (DAQ)
 <img width="3072" height="4080" alt="PXL_20260728_090040083(1)" src="https://github.com/user-attachments/assets/df5db7d0-14fa-415a-ba17-a47d2188022c" />
 Measures mV level voltages and plots them on your computer screen, built using a raspberry pi pico and an OPA2134 op-amp signal conditioning stage, in order to plot REALLY accurate decay curves for an electromagnetic damping experiment with an active noise floor uncertainty of ±0.000034V!! <br/><br/>
 
