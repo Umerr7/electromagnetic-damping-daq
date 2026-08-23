@@ -2,7 +2,7 @@
 <img width="3072" height="4080" alt="PXL_20260728_090040083(1)" src="https://github.com/user-attachments/assets/df5db7d0-14fa-415a-ba17-a47d2188022c" />
 Measures mV level voltages and plots them on your computer screen, built using a raspberry pi pico and an OPA2134 op-amp signal conditioning stage, in order to plot REALLY accurate decay curves for an electromagnetic damping experiment with an active noise floor uncertainty of ±0.000034V!! <br/><br/>
 
-> see this project in action: [link]
+> see this project in action: https://www.youtube.com/shorts/oiMqCiaboVs
 
 I made this DAQ, because I was annoyed at the terrible analog oscilloscope in the lab, while trying to conduct an electromagnetic damping experiment. Since my lab didnt have a digital oscilloscope i could use, I thought "ill just make one myself". I did not realize at the time, just how deep this project would take me, and how obsessed i would become with analog signal conditioning. <br/>
 
