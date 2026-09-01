@@ -45,10 +45,36 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 | **Active Noise Floor Uncertainty** | ±0.034 mV (±34 μV) | Measured noise floor |
 | **Signal-to-Noise Ratio (SNR)** | ~62.84 dB | 20 * log10(Voltage Ceiling / Noise Floor) |
 
+# BOM (Bill Of Materials)
+|Item                   |Qty.|Price (USD)|Ext. (USD)|Link                                                                                                                              |
+|--------------------------https://www.youtube.com/watch?v=pzngkjVtyzk---|----|-----------|----------|----------------------------------------------------------------------------------------------------------------------------------|
+|Breadboard                   |1   |2.21       |2.21      |https://www.aliexpress.com/item/1005005239798226.html                                                                             |
+|Rasberry pi pico             |1   |12.52      |12.52     |https://www.aliexpress.com/item/1005008645247905.html                                                                             |
+|NMA0515                      |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|OPA2134                      |1   |2.80       |2.80      |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
+|USB data cable               |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|9V power adapter             |1   |2.80       |2.80      |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
+|SPST toggle button           |2   |3.36       |3.36      |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
+|USB data cable               |1   |3.36       |3.36      |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
+|LM7805                       |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|Signal Diode                 |2   |2.80       |2.80      |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
+|104 ceramic capacitor        |4   |3.36       |3.36      |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
+|220uf electrolytic capacitor |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|22uf electrolytic capacitor  |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|10uf electrolytic capacitor  |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|1M ohm resistor              |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|35k ohm resistor             |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|10k ohm resistor             |2   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|1k ohm resistor              |2   |8.04       |8.04      |https://www.aliexpress.com/item/1005007643104919.html |
+
+
+
+Total (USD): $174.57
+
 # notes
 Muino serial plotter was mostly used to display the information, it is available as a Visual Studio Code extension.
 A custom serial plotter was also made for this project by Hardyesh Kumar. It includes an extra post signal conditioning step called a **butterworth** filter.
 
 
-
+Made with ❤️ by Umer
 
