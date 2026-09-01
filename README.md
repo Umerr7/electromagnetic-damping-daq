@@ -58,9 +58,9 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 |LM7805 voltage regulator     |1   |0.23       |https://www.lcsc.com/product-detail/C36350857.html?                                                                               |
 |Signal diode                 |1   |1.64       |https://www.aliexpress.us/item/2251832278935821.html                                                                              |
 |104 ceramic capacitor        |4   |3.36       |https://www.aliexpress.us/item/3256806988809232.html                                                                              |
-|220uf electrolytic capacitor |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|22uf electrolytic capacitor  |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|10uf electrolytic capacitor  |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|220uf electrolytic capacitor |1   |0.45       |https://www.lcsc.com/product-detail/C233093.html                                                                                  |
+|22uf electrolytic capacitor  |1   |0.44       |https://www.lcsc.com/product-detail/C235681.html                                                                                  |
+|10uf electrolytic capacitor  |1   |0.74      |https://www.lcsc.com/product-detail/C235887.html                                                                             |
 |1M ohm resistor              |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
 |35k ohm resistor             |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
 |10k ohm resistor             |2   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
