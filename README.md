@@ -49,7 +49,7 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 |Item                   |Qty.|Price (USD)|Link                                                                                                                              |
 |-----------------------------|----|----------|----------------------------------------------------------------------------------------------------------------------------------|
 |Breadboard                   |1   |2.21       |https://www.aliexpress.com/item/1005005239798226.html                                                                             |
-|Rasberry pi pico             |1   |3.64       |https://www.aliexpress.us/item/3256808762485175.html                                                                              |
+|Rasberry Pi Pico             |1   |3.64       |https://www.aliexpress.us/item/3256808762485175.html                                                                              |
 |NMA0515sc                    |1   |12.69      |https://www.lcsc.com/product-detail/C7010270.html                                                                                 |
 |OPA2134PA op-amp             |1   |7.25       |https://www.lcsc.com/product-detail/C1346118.html                                                                                 |
 |USB type C cable             |1   |2.63       |https://www.aliexpress.us/item/3256809634860310.html                                                                              |
@@ -57,16 +57,16 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 |SPDT push button             |1   |3.36       |https://www.lcsc.com/product-detail/C318869.html                                                                                  |
 |LM7805 voltage regulator     |1   |0.23       |https://www.lcsc.com/product-detail/C36350857.html?                                                                               |
 |Signal diode                 |1   |1.64       |https://www.aliexpress.us/item/2251832278935821.html                                                                              |
-|104 ceramic capacitor        |4   |3.36       |https://www.aliexpress.us/item/3256806988809232.html                                                                              |
+|104 ceramic capacitor        |1   |3.36       |https://www.aliexpress.us/item/3256806988809232.html                                                                              |
 |220uf electrolytic capacitor |1   |0.45       |https://www.lcsc.com/product-detail/C233093.html                                                                                  |
 |22uf electrolytic capacitor  |1   |0.44       |https://www.lcsc.com/product-detail/C235681.html                                                                                  |
-|10uf electrolytic capacitor  |1   |0.74      |https://www.lcsc.com/product-detail/C235887.html                                                                             |
-|1M ohm resistor              |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|35k ohm resistor             |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|10k ohm resistor             |2   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|1k ohm resistor              |2   |8.04       |https://www.aliexpress.com/item/1005007643104919.html |
+|10uf electrolytic capacitor  |1   |0.74       |https://www.lcsc.com/product-detail/C235887.html                                                                                  |
+|1M ohm resistor              |1   |0.99       |https://www.aliexpress.us/item/3256811581264023.html                                                                              |
+|35k ohm resistor             |1   |0.99       |https://www.aliexpress.us/item/3256811581264023.html                                                                              |
+|10k ohm resistor             |1   |0.99       |https://www.aliexpress.us/item/3256811581264023.html                                                                              |
+|1k ohm resistor              |1   |0.99       |https://www.aliexpress.us/item/3256811581264023.html |
 
-Total (USD): $17
+Total (USD): $42.57
 
 
 # notes
