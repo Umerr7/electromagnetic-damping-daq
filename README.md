@@ -47,7 +47,7 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 
 # BOM (Bill Of Materials)
 |Item                   |Qty.|Price (USD)|Ext. (USD)|Link                                                                                                                              |
-|--------------------------https://www.youtube.com/watch?v=pzngkjVtyzk---|----|-----------|----------|----------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|----|-----------|----------|----------------------------------------------------------------------------------------------------------------------------------|
 |Breadboard                   |1   |2.21       |2.21      |https://www.aliexpress.com/item/1005005239798226.html                                                                             |
 |Rasberry pi pico             |1   |12.52      |12.52     |https://www.aliexpress.com/item/1005008645247905.html                                                                             |
 |NMA0515                      |1   |17.38      |17.38     |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
