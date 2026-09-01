@@ -49,13 +49,12 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 |Item                   |Qty.|Price (USD)|Link                                                                                                                              |
 |-----------------------------|----|----------|----------------------------------------------------------------------------------------------------------------------------------|
 |Breadboard                   |1   |2.21       |https://www.aliexpress.com/item/1005005239798226.html                                                                             |
-|Rasberry pi pico             |1   |3.64       |https://www.aliexpress.com/item/1005008645247905.html                                                                             |
-|NMA0515sc                    |1   |12.69      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|OPA2134PA op-amp             |1   |7.25       |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
-|USB type C cable             |1   |1.00       |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
+|Rasberry pi pico             |1   |3.64       |https://www.aliexpress.us/item/3256808762485175.html                                                                              |
+|NMA0515sc                    |1   |12.69      |https://www.lcsc.com/product-detail/C7010270.html                                                                                 |
+|OPA2134PA op-amp             |1   |7.25       |https://www.lcsc.com/product-detail/C1346118.html                                                                                 |
+|USB type C cable             |1   |2.63       |https://www.aliexpress.us/item/3256809634860310.html                                                                              |
 |9V power adapter             |1   |2.96       |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
-|SPDT push button             |2   |3.36       |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
-|USB data cable               |1   |3.36       |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
+|SPDT push button             |2   |3.36       |https://www.lcsc.com/product-detail/C318869.html                                                                                  |
 |LM7805                       |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
 |Signal Diode                 |2   |2.80       |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
 |104 ceramic capacitor        |4   |3.36       |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
