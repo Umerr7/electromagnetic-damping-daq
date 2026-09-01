@@ -53,11 +53,11 @@ A neodymium magnet is attached to a spring. An aluminum claw is used to release 
 |NMA0515sc                    |1   |12.69      |https://www.lcsc.com/product-detail/C7010270.html                                                                                 |
 |OPA2134PA op-amp             |1   |7.25       |https://www.lcsc.com/product-detail/C1346118.html                                                                                 |
 |USB type C cable             |1   |2.63       |https://www.aliexpress.us/item/3256809634860310.html                                                                              |
-|9V power adapter             |1   |2.96       |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
-|SPDT push button             |2   |3.36       |https://www.lcsc.com/product-detail/C318869.html                                                                                  |
-|LM7805                       |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
-|Signal Diode                 |2   |2.80       |https://www.aliexpress.com/item/1005003090693763.html                                                                             |
-|104 ceramic capacitor        |4   |3.36       |https://www.aliexpress.com/item/1005007182450013.html                                                                             |
+|9V power adapter             |1   |2.96       |https://www.aliexpress.us/item/3256807586812399.html                                                                              |
+|SPDT push button             |1   |3.36       |https://www.lcsc.com/product-detail/C318869.html                                                                                  |
+|LM7805 voltage regulator     |1   |0.23       |https://www.lcsc.com/product-detail/C36350857.html?                                                                               |
+|Signal diode                 |1   |1.64       |https://www.aliexpress.us/item/2251832278935821.html                                                                              |
+|104 ceramic capacitor        |4   |3.36       |https://www.aliexpress.us/item/3256806988809232.html                                                                              |
 |220uf electrolytic capacitor |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
 |22uf electrolytic capacitor  |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
 |10uf electrolytic capacitor  |1   |17.38      |https://www.aliexpress.com/item/1005007129408124.html                                                                             |
